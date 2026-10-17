@@ -7,3 +7,5 @@ This repository contains my JavaScript source codes, lecture examples, laborator
 - Lesson 2
 - Lesson 3
 - Lesson 4
+
+This repository includes completed midterm programming exercises and lesson materials.
