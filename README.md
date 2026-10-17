@@ -9,3 +9,5 @@ This repository contains my JavaScript source codes, lecture examples, laborator
 - Lesson 4
 
 This repository includes completed midterm programming exercises and lesson materials.
+
+Git version control helps track changes and maintain source code history.
