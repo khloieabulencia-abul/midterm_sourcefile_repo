@@ -1,0 +1,153 @@
+let student1 = 85;
+let student2 = 72;
+let student3 = 91;
+let student4 = 64;
+let student5 = 78;
+
+let total = student1 + student2 + student3 + student4 + student5;
+let average = total/5;
+
+let highest_score = student3;
+let lowest_score = student4;
+
+let passed = 0;
+let failed = 0;
+
+console.log("Student Scores: ");
+console.log(student1);
+console.log(student2);
+console.log(student3);
+console.log(student4);
+console.log(student5);
+
+console.log();
+
+if (student1 >=90){
+    console.log("Student 1: " + student1 + " - Excellent - Passed");
+} else if (student1 >= 80){ 
+    console.log("Student 1: " + student1 + " - Very Good - Passed");
+} else if (student1 >= 75){
+     console.log("Student 1: " + student1 + " - Good - Passed");
+} else {
+     console.log("Student 1: " + student1 + " - Failed - Failed");
+}
+
+if(student1 >= 75){
+    passed++;
+} else {
+    failed++;
+}
+
+if (student2 >=90){
+    console.log("Student 2: " + student2 + " - Excellent - Passed");
+} else if (student2 >= 80){ 
+    console.log("Student 2: " + student2 + " - Very Good - Passed");
+} else if (student2 >= 75){
+     console.log("Student 2: " + student2 + " - Good - Passed");
+} else {
+     console.log("Student 2: " + student2 + " - Failed");
+}
+
+if(student2 >= 75){
+    passed++;
+} else {
+    failed++;
+}
+
+if (student3 >=90){
+    console.log("Student 3: " + student3 + " - Excellent - Passed");
+} else if (student3 >= 80){ 
+    console.log("Student 3: " + student3 + " - Very Good - Passed");
+} else if (student3 >= 75){
+     console.log("Student 3: " + student3 + " - Good - Passed");
+} else {
+     console.log("Student 3: " + student3 + " - Failed ");
+}
+
+if(student3 >= 75){
+    passed++;
+} else {
+    failed++;
+}
+
+if (student4 >=90){
+    console.log("Student 4: " + student4 + " - Excellent - Passed");
+} else if (student4 >= 80){ 
+    console.log("Student 4: " + student4 + " - Very Good - Passed");
+} else if (student4 >= 75){
+     console.log("Student 4: " + student4 + " - Good - Passed");
+} else {
+     console.log("Student 4: " + student4 + " - Failed");
+}
+
+if(student4 >= 75){
+    passed++;
+} else {
+    failed++;
+}
+
+if (student5 >=90){
+    console.log("Student 5: " + student5 + " - Excellent - Passed");
+} else if (student5 >= 80){ 
+    console.log("Student 5: " + student5 + " - Very Good - Passed");
+} else if (student5 >= 75){
+     console.log("Student 5: " + student5 + " - Good - Passed");
+} else {
+     console.log("Student 5: " + student5 + " - Failed - Failed");
+}
+
+if(student5 >= 75){
+    passed++;
+} else {
+    failed++;
+}
+
+if(student1 > highest_score){
+    highest_score = student1;
+}
+
+
+if(student2 > highest_score){
+    highest_score = student2;
+}
+
+if(student3 > highest_score){
+    highest_score = student3;
+}
+
+if(student4 > highest_score){
+    highest_score = student4;
+}
+
+if(student5 > highest_score){
+    highest_score = student5;
+}
+
+if(student1 < lowest_score){
+    lowest_score = student1;
+}
+
+if(student2 < lowest_score){
+    lowest_score = student2;
+}
+
+if(student3 < lowest_score){
+    lowest_score = student3;
+}
+
+if(student4 < lowest_score){
+    lowest_score = student4;
+}
+
+if(student5 < lowest_score){
+    lowest_score = student5;
+}
+
+console.log();
+
+console.log("Total Score: " + total);
+console.log("Average Score: " + average);
+console.log("Highest Score: " + highest_score);
+console.log("Lowest Score: " + lowest_score);
+console.log("Passed: " + passed);
+console.log("Failed: " + failed);
